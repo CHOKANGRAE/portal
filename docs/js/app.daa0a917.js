@@ -558,7 +558,7 @@ const testRoutes = [
 ];
 routes.push(...testRoutes);
 const router = (0,vue_router/* createRouter */.p7)({
-    history: (0,vue_router/* createWebHistory */.PO)("/<portal>/"),
+    history: (0,vue_router/* createWebHistory */.PO)("/"),
     routes,
     scrollBehavior() {
         return { top: 0 };
@@ -2618,7 +2618,7 @@ module.exports = __webpack_require__.p + "img/save-money.185618a2.gif";
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + {"70":"view-SupportView-vue","553":"view-EventContentView-vue","597":"view-MembershipView-vue","805":"view-SwiperTestView-vue","825":"view-UseView-vue","891":"view-EventLastView-vue","897":"view-LoginView-vue","969":"view-UserView-vue","973":"view-EventView-vue","977":"view-HomeView-vue"}[chunkId] + "." + {"70":"9bf58e2b","553":"a54118f2","597":"2d792604","805":"333d5252","825":"62fbc4fd","891":"508e8edb","897":"083616a1","969":"bbc04b93","973":"29cbaea5","977":"37962e21"}[chunkId] + ".css";
+/******/ 			return "css/" + {"70":"view-SupportView-vue","553":"view-EventContentView-vue","597":"view-MembershipView-vue","805":"view-SwiperTestView-vue","825":"view-UseView-vue","891":"view-EventLastView-vue","897":"view-LoginView-vue","969":"view-UserView-vue","973":"view-EventView-vue","977":"view-HomeView-vue"}[chunkId] + "." + {"70":"9bf58e2b","553":"0eb81eb4","597":"d75ed7e7","805":"333d5252","825":"3a5f4fd2","891":"da2efea4","897":"083616a1","969":"bbc04b93","973":"83d8d357","977":"21f90de0"}[chunkId] + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -2698,7 +2698,7 @@ module.exports = __webpack_require__.p + "img/save-money.185618a2.gif";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/<portal>/";
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/css loading */
